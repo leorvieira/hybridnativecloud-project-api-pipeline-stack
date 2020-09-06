@@ -18,7 +18,7 @@ functions:
   caller-codepipeline:
     handler: handler.main
     environment:
-      GROUP: rafabarbosa
+      GROUP: leo
     events:
       - http:
          path: activate
